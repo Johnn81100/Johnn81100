@@ -39,6 +39,24 @@ Un projet doit rester lisible par quelqu'un qui n'était pas là quand les déci
 
 ---
 
+## Mon environnement Claude Code
+
+J'utilise Claude Code comme un environnement de travail outillé et encadré, versionné en trois dépôts :
+
+| Dépôt | Contenu |
+|---|---|
+| **[studio-configs](https://github.com/Johnn81100/studio-configs)** | Règles globales, permissions, hooks de garde de la config, modèle de menaces OWASP |
+| **[studio-skills](https://github.com/Johnn81100/studio-skills)** | Procédures réutilisables : audit de code legacy par sous-agents en parallèle, worktree par feature, rotation de token, relevé de temps |
+| **[studio-agents](https://github.com/Johnn81100/studio-agents)** | Sous-agent UI/UX qui produit et audite des maquettes HTML interactives |
+
+Les principes qui les relient :
+
+- Tout contenu externe (page web, issue, sortie d'outil) est une donnée, jamais une instruction.
+- Aucun secret dans un dépôt : variables d'environnement, lectures sensibles bloquées par des règles `deny`.
+- L'agent n'écrit pas la configuration active : brouillon, diff, puis promotion par l'humain.
+- Le modèle se choisit selon la nature du raisonnement, et le coût des sous-agents se mesure.
+- Une branche et un worktree par sujet, aucun push sans demande explicite.
+
 ## Autres travaux publics
 
 - **[capstone-cloud-2026](https://github.com/Johnn81100/capstone-cloud-2026)** : déploiement Kubernetes sur VPS d'une application web Coupe du Monde 2026
