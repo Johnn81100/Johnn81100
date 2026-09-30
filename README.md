@@ -4,7 +4,7 @@
 
 J'interviens de l'analyse du besoin à la mise en production d'applications métier. Ma méthode de conception s'appuie sur les six piliers du **AWS Well-Architected Framework** (excellence opérationnelle, sécurité, fiabilité, performance, coûts, durabilité), appliqués quelle que soit la plateforme, et sur les recommandations **OWASP** pour tout ce qui touche à l'authentification et aux données utilisateur.
 
-Mastère en développement d'applications mobiles, préparé en alternance chez **Collins Aerospace**, après plusieurs années d'études en développement web.
+Mastère en développement d'applications mobiles achevé en 2026, préparé en alternance chez **Collins Aerospace**, après plusieurs années d'études en développement web.
 
 ---
 
