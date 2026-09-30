@@ -45,9 +45,9 @@ J'utilise Claude Code comme un environnement de travail outillé et encadré, ve
 
 | Dépôt | Contenu |
 |---|---|
-| **[studio-configs](https://github.com/Johnn81100/studio-configs)** | Règles globales, permissions, hooks de garde de la config, modèle de menaces OWASP |
-| **[studio-skills](https://github.com/Johnn81100/studio-skills)** | Procédures réutilisables : audit de code legacy par sous-agents en parallèle, worktree par feature, rotation de token, relevé de temps |
-| **[studio-agents](https://github.com/Johnn81100/studio-agents)** | Sous-agent UI/UX qui produit et audite des maquettes HTML interactives |
+| **[studio‑configs](https://github.com/Johnn81100/studio-configs)** | Règles globales, permissions, hooks de garde de la config, modèle de menaces OWASP |
+| **[studio‑skills](https://github.com/Johnn81100/studio-skills)** | Procédures réutilisables : audit de code legacy par sous-agents en parallèle, worktree par feature, rotation de token, relevé de temps |
+| **[studio‑agents](https://github.com/Johnn81100/studio-agents)** | Sous-agent UI/UX qui produit et audite des maquettes HTML interactives |
 
 Les principes qui les relient :
 
